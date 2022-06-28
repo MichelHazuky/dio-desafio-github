@@ -103,6 +103,9 @@
   overflow: hidden;
   height: 38px;
   color: #8e8e8e;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .form-button {
   background-color: #b2dffc;
