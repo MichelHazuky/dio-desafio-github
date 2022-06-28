@@ -2,4 +2,7 @@
 Repositório criado para o Dersafio de Projeto da DIO
 
 ## Links Úteis
-[Sinbtaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
+ [Sintaxe Básica Markdown](https://www.markdownguide.org/basic-syntax/)
+ 
+ [Download Git](https://git-scm.com/downloads/)
+
