@@ -1,0 +1,302 @@
+/*******************************
+*INICIO CONFIGURAÇÕES GENÉRICAS*
+*******************************/
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  text-decoration: none;
+}
+.h-100 {
+  height: 100%;
+}
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.column {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+.justify-center {
+  justify-content: center;
+}
+.body {
+  background-color: #fafafa;
+  width: 100%;
+}
+
+/****************************
+*FIM CONFIGURAÇÕES GENÉRICAS*
+****************************/
+
+/***************************
+*INICIO CONFIGURAÇÕES CORPO*
+***************************/
+
+/*Containers*/
+.container {
+  justify-content: center;
+}
+.left-container {
+  margin: 32px 30px 12px 0px;
+}
+.right-container {
+  margin: 10px 0px 0px 0px;
+}
+
+/*Logo Instagram*/
+.box-logo {
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+.logo {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/*Smartphone com imagens*/
+.phone {
+  background-image: url(../images/png_phone.png);
+  background-repeat: no-repeat;
+  background-position: -47px 0;
+  min-width: 382px;
+  justify-content: center;
+  position: relative;
+  flex-basis: 380.32px;
+  height: 581.15px;
+  background-size: 469px 634.15px;
+}
+.screenshot {
+  height: 539px;
+  margin-left: 93px;
+  margin-top: 27px;
+  width: 250px;
+  position: absolute;
+  animation: change-screenshot 20s linear infinite;
+}
+
+/*Formulário de Login*/
+.form-login {
+  width: 100%;
+  margin-top: 22px;
+  padding: 0px 10px;
+}
+.form-input {
+  min-width: 100%;
+  font-size: 12px;
+  padding: 10px 0px 10px 8px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+  margin: 0px 0px 6px 0px;
+  overflow: hidden;
+  height: 38px;
+  color: #8e8e8e;
+}
+.form-button {
+  background-color: #b2dffc;
+  color: white;
+  padding: 5px 0px 6px 0px;
+  margin: 8px 0px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*Divisor de seção ---"OU"---*/
+.box-line {
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+  color: #8e8e8e;
+  margin: 11px 0px 22px 0px;
+}
+.box-line > span {
+  margin: 0px 18px;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #dbdbdb;
+  margin-bottom: 2px;
+}
+
+/*Seção de login com Facebook*/
+.box-facebook {
+  color: #385185;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 8px 0px 11px 0px;
+  cursor: pointer;
+  text-align: center;
+}
+.facebook-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+.facebook-login {
+  color: #00376b;
+}
+
+/*Seção de recuperar senha*/
+.box-recovery-pass {
+  margin: 12px;
+  font-size: 12px;
+}
+.box-recovery-pass > a {
+  color: #00376b;
+}
+
+/*Seção de cadatre-se*/
+.box-signup {
+  margin: 12px auto;
+  padding: 12px 0px;
+  font-size: 14px;
+}
+.text-signup {
+  margin: 14px 0px 13px 0px;
+  color: #262626;
+}
+.link-signup {
+  color: #0095f6;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/*Seção baixar apps nas lojas*/
+.text-apps {
+  margin: 12px 0px 12px 0px;
+  color: #262626;
+  font-size: 14px;
+}
+.box-logo-stores {
+  margin: 10px 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box-logo-stores > a {
+  margin: 2px 4px;
+}
+.store-logo {
+  max-height: 40px;
+  max-width: 136px;
+}
+
+/*Elementos do rodapé */
+.box-footer {
+  margin: 54px 0px 0px 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+.footer-help,
+.footer-others,
+.footer-language,
+.footer-select {
+  justify-content: center;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0px 8px 0px 8px;
+}
+.footer-language {
+  margin: 11px 0px 60px 0px;
+}
+.footer-language > div {
+  margin: 0px 22px 0px 0px;
+}
+.box-footer > div > a {
+  color: #8e8e8e;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0px 8px 7px 8px;
+}
+.footer-select {
+  border: none;
+  background-color: #fafafa;
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 5px;
+  margin: 0px 10px 0px 0px;
+}
+
+/************************
+*FIM CONFIGURAÇÕES CORPO*
+************************/
+
+/*********************
+*INICIO MEDIA QUERYES*
+*********************/
+@media (max-width: 875px) {
+  .left-container {
+    display: none;
+  }
+}
+
+@media (min-width: 451px) {
+  .box {
+    border: 1px solid rgba(219, 219, 219, 1);
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 10px 0px;
+    width: 350px;
+  }
+  .right-container {
+    margin: 34px 0px 0px 0px;
+  }
+  .form-login {
+    padding: 0px 40px;
+  }
+}
+
+/******************
+*FIM MEDIA QUERYES*
+******************/
+
+/*Animações dos slides de screenshot*/
+.screenshot:nth-of-type(1) {
+  animation-delay: 15s;
+}
+.screenshot:nth-of-type(2) {
+  animation-delay: 10s;
+}
+.screenshot:nth-of-type(3) {
+  animation-delay: 5s;
+}
+.screenshot:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+@keyframes change-screenshot {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
